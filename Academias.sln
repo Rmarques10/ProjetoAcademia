@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{74CEE6C2-60EF-46DA-B622-1B3C085625A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BC05494C-F2B6-4B62-A149-0FC39151951C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{81A039BD-3519-422D-829F-1698C9846C6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{65FA210D-688B-480C-BCD5-50029BC238A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1EB72304-CB9A-4AB2-80E2-3C92629496A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{D0FC60C1-D9BB-4932-B235-220E5392CE16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academias.Infra.Data", "Academias.Infra.Data\Academias.Infra.Data.csproj", "{C1989A8B-7C29-4E18-AB63-66CDA29D2EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1989A8B-7C29-4E18-AB63-66CDA29D2EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1989A8B-7C29-4E18-AB63-66CDA29D2EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1989A8B-7C29-4E18-AB63-66CDA29D2EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1989A8B-7C29-4E18-AB63-66CDA29D2EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EB72304-CB9A-4AB2-80E2-3C92629496A9} = {65FA210D-688B-480C-BCD5-50029BC238A1}
+		{D0FC60C1-D9BB-4932-B235-220E5392CE16} = {65FA210D-688B-480C-BCD5-50029BC238A1}
+		{C1989A8B-7C29-4E18-AB63-66CDA29D2EAC} = {1EB72304-CB9A-4AB2-80E2-3C92629496A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EABC0770-D350-4E11-BEAB-6B7338DE0DC9}
+	EndGlobalSection
+EndGlobal
